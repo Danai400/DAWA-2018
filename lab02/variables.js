@@ -21,8 +21,9 @@ http.createServer(function(req,res){
 			parametros[i] = param_data[0];
 			valores[i] = param_data[1];
 
-		}
-}
+	
+}}
+
 		for(var i=0; i<parametros.length; i++){
 			html_string = html_string.replace('{'+parametros[i]+'}',valores[i]);
 		}
