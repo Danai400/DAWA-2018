@@ -3,6 +3,7 @@
 	parser=require('./parser_var.js'),
 	p= parser.parse_vars;
 	datos=parser.batman;
+	fun=parser.bartam;
 
 	http.createServer(function(req,res){
 		fs.readFile('./form.html',function(err,html){

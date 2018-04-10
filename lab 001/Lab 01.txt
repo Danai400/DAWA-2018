@@ -1,0 +1,72 @@
+
+LAB 01
+
+2.-     Instalacion Xampp 
+	-IMG. Instalacion Xampp
+
+4.3.	Visualice lo redactado accediendo a http://localhost/formulario.php.
+	-IMG 4.3
+
+4.4	Accediendo a la dirección http://localhost/formulario2.php.
+	-IMG 4.4
+
+5.2	Visualice lo redactado en http://localhost/formulario3.html
+	-IMG 5.2
+
+5.3	Sumar los siguientes valores, anote el resultado y explique:
+
+	•	1 + 1 		=  2 	=> el resultado es el esperado
+	•	1000 + 152	= 1152  =>el resultado es el esperado
+	•	5 + prueba 	= NAN  => solo suma números, o reconoce caracteres
+	•	2.5 + 6.8 	= 8       => toma los números con decimales o float como enteros.
+
+
+5.4.	Vemos que la última suma no es como deseamos. Explique por qué:
+
+	-Porque el codigo usa parseInt para leer enteros
+
+5.5	Solucion, sumando numeros con decimales(Float)
+	-IMG 5.5
+
+
+7.4	Las características de opciones al instalar NODE.
+	-Npm package manager.-(manejador de paquetes por defecto para Node.js)
+
+9.4.	Verificamos en la consola el resultado
+	-Img 9.4
+
+9.5.	Anote sus conclusiones de lo que se acaba de realizar. 
+
+	-se muestra en la consola el mensaje hola mundo!
+
+9.8. 	Observaciones y mencione en que se diferencia de la versión anterior del archivo.
+	-IMG 9.8
+
+	-El mensaje hola mundo se muestra a traves del localhost, ya no a traves de la consola,
+	 como en el caso anterior, el mensaje que se verá en la consola es Conexion entrante.
+	 El siguiente código muestra el contenido de index.html (solo contiene el texto hello world) 
+
+9.1	 Ejecute node bucle.js
+	IMG 9.10
+
+10.3	Ejecute
+	IMG 10.3
+
+10.5 	diferencia entre los comandos readFileSync y readFile 
+	-ReadFileSync.- Node por ser asincrono, el codigo se va a ejecutar de todas formas o en desorden
+	-ReadFile.- Si usamos readFile se ejecutará en orden de manera secuencial, hasta encontrar un error.
+		IMG(10.5)
+TAREA
+	-tarea.png
+	-tarea.localgost.png
+	-tareaenlaces.png
+
+
+OBSERVACIONES Y CONCLUSIONES
+
+-Node.js es una plataforma creada en el tiempo de ejecución de JavaScript de Chrome
+-Node.js construye fácilmente aplicaciones de red rápidas y escalables.
+-Node.js es liviano y eficiente, perfecto para aplicaciones de datos en tiempo real.
+-Aprendimos sobre elvuso de readFileSync y readFile, node.js por ser asincrono, es necesario
+ usar readFile para ubicar el error de nuestro codigo.
+-Tanto request como response tienen propiedades y métodos que podemos ver en la API de Express.
