@@ -1,7 +1,0 @@
-LAB 04
-
-2.13.	Explica los cambios que se buscan al utilizar middlewares 
-para capturar la misma URL pero con diferente método HTTP.
-
-
-
