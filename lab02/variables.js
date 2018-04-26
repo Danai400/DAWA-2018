@@ -6,7 +6,7 @@ valores = [];
 
 http.createServer(function(req,res){//req , representa a la solicitud del cliente
 	fs.readFile('./form.html',function(err,html){ //readFile, lee los archivos de form.html
-		var html_string = html.toString();
+		var html_string = html.toString(); 
 
 
 

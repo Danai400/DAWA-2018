@@ -19,14 +19,34 @@ Instalación de paquetes mediante NPM
 	(A traves del codigo que muestra una variable que contiene un arreglo
 	de  nombre lista, esta es llamada a ser impresa en la consola a traves de una funcion
 	)
-4.12.	Explique el resultado obtenido de la última función.
-	("")
-
-	IMG 4.12
-
-5.5 5.5.	Adjunte una captura del resultado y agregue como podría mejorar el código 
 
 
+
+7.- Entendimiento de ejecucion 
+
+7.1.-Document.getElementsByTagName: Devuelve elementos, en este caso un  (boton) ,
+     al hacerle click se muestra un mensaje que dice hiciste click a ….el elemento. 
+     Y asi con todos los botones.
+
+7.3.-Con setTimeout(), podemos colocar el tiempo de retraso para que un mensaje se muestre,
+     por ende hay un orden en que se muestren los mensajes.
+
+7.4.-
+
+CONCLUSIONES
+
+- Los campos mas importantes al crear un package.json son nombre y autor,
+   que son como un identificador unico.
+
+- Al crear una carpeta y quere colocar npm install, es necesario iniciar el servidor con npm init.
+
+- Otro de los paquetes intalados es npm install underscore,
+  es una biblioteca para JavaScript que proporciona soporte
+  para los sospechosos funcionales habituales (cada uno, mapa, reducir, filtrar ...) 
+  sin extender ningún objeto JavaScript central.
+- En package.json, se guardarán todas las bibliotecas e installaciones que le pongamos al proyecto, junto a sus versiones.
+
+- Usamos el comando npm adduser para poder validar nuestras credenciales en el proyecto que tenemos.
 
 
 

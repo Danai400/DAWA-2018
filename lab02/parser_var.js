@@ -24,8 +24,8 @@ var arreglo_parametros = [],
 }
 module.exports.parse_vars = parse_vars;
 
-module.exports.batman = {
+/*module.exports.batman = {
 	identidad: 'Bruce Wayne',
 	poder: 'Dinero'
 
-};
+};*/
