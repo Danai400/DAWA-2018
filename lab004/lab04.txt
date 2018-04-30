@@ -1,0 +1,27 @@
+LAB 05
+
+3.5. Estamos creando un tratamiento de datos para nuestra colección
+ producto a través de las cuatro operaciones principales del CRUD,
+ indique que líneas corresponden a cada una de estas.
+
+app.get('/producto', producto.show); - MUESTRA EL PRODUCTO
+app.post('/producto', producto.create); - CREA UN NUEVO PRODUCTO
+app.post('/producto/update', producto.update); - ACTUALIZA LAS CARACTERISTICAS DE PRODUCTO
+app.post('/producto/delete', producto.delete); - eLIMINA UN PRODUCTO
+
+
+CONCLUSIONES
+- Instalamos mongoose, con npm install mongoose --save, esto es para trabajar con la base de datos 
+que crearemos en mongo DB, A medida que ingresemos datos, estos se guardaran en mongo db automaticamente; 
+sin le necesidad de tener una base de datos en mongo db.
+
+- Instalamos npm- parser; con la misma sintaxis de mongoose, npm-parser sirve para tratar los argumentos 
+hechas en las peticiones.
+
+- Schema
+
+- express es un framework de node js, que facilita la comunicacion del http con el servidor, 
+  la instalacion fue similar a los anterirores con npm install express --save.
+- En node modules, que se crea tambien en la carpeta, se encuentran todas las librerias
+  de las que depende express.
+- body-parser, permite las peticiones post 
