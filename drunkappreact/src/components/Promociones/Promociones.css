@@ -1,0 +1,19 @@
+table, th, td {
+    border: 1px solid black;
+    border-color: red;
+    padding: center;
+
+}
+h1{
+	background-color: Tomato;
+	text-align: center;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+    text-shadow: 3px 2px;
+}
+h2{
+	background-color: Tomato;
+	text-align: center;
+    color: white;
+}

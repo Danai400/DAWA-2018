@@ -1,0 +1,19 @@
+
+.Header {
+  background-color: #22246;
+  height: 250px;
+  padding: 20px;
+  color: red;
+}
+
+.Logo img {
+  animation: App-logo-spin infinite 1000s linear;
+  height: 10px;
+  
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
