@@ -1,0 +1,12 @@
+.Contador {
+	font-size: 14px;
+	padding: 5px;
+	color: white;
+	background: purple;
+
+}
+.table{
+	border: 4;
+	background: purple;
+    border-color: red;
+}
