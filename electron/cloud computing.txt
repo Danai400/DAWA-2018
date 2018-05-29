@@ -1,0 +1,8 @@
+CONCLUSIONES
+
+- Electron es un framework para crear aplicaciones nativas con
+  tecnologías web (javascript, HTMML y CSS)
+- Electron esta creada y mantenida por Github.
+- Con electron es facil crear una aplicación de escritorio.
+- Soporta los sistemas operativos de Linux, Windows y macOS
+- Con electron podemos acceder a modulos ded Node.js y a algunas API
